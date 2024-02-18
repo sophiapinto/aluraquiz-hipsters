@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AluraLogo } from "../AluraLogo";
 import footerStyles from "./footer.module.css";
 
@@ -6,7 +7,7 @@ export function Footer() {
     <footer className={footerStyles.footer}>
       <AluraLogo />
       <p>
-        Orgulhosamente criado com o <br />DevSoutinho e a Alura
+        Orgulhosamente criado por <Link href="https://www.yllion.com.br">Sarah Sophia Pinto</Link>.
       </p>
     </footer>
   )

@@ -25,10 +25,9 @@ export default function Page() {
         </div>
 
         <Card
-          headerTitle="Teste suas habilidades"
-        >
+          headerTitle="Teste suas habilidades" children={""}        >
           <p style={{ marginBottom: "32px" }}>
-            Teste os seus conhecimentos sobre o universo Marvel e divirta-se criando o seu AluraQuiz!
+            Teste os seus conhecimentos sobre o universo literário!
           </p>
           <form
             onSubmit={(event) => {
@@ -41,12 +40,12 @@ export default function Page() {
             <div style={{ marginBottom: "24px" }}>
               <input
                 type="text"
-                placeholder="Diz aí seu nome pra jogar :)"
+                placeholder="Diga seu nome de bookstan :)"
                 name="playerName"
               />
             </div>
             <button>
-              Jogar
+              Vamos jogar!
             </button>
           </form>
         </Card>

@@ -1,10 +1,10 @@
 
 /* CSS Theme */
 :root {
-  --primary: #3F51B5;
-  --primary-100: #A0A6CB;
-  --accent: #E91E63;
-  --bg: #171B35;
+  --primary: #506ae0;
+  --primary-100: #506ae0;
+  --accent: #bce1eb;
+  --bg: #02071d;
   --text: #FFFFFF;
 }
 
@@ -38,18 +38,19 @@ body {
 /* DEFAULT FORM COMPONENTS */
 /* ======================= */
 button {
-  background-color: #E91E63;
+  background-color: #fbff00;
   text-transform: uppercase;
   letter-spacing: 1.25px;
   transition: opacity .2s;
   width: 100%;
-  color: var(--text);
+  color: #02071d;
   border: 0;
   cursor: pointer;
   padding: 10px 16px;
   border-radius: 4px;
   box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.12);
 }
+
 button:hover,
 button:focus {
   opacity: 0.7;
